@@ -785,7 +785,7 @@ const QuotationTool: React.FC = () => {
                     { value: "template", label: "Template  " },
                     { value: "semi-custom", label: "Semi-custom " },
                     { value: "fully-custom", label: "Fully custom " },
-                    { value: "not-sure", label: "not sure" },
+                    { value: "not-sure", label: "Not Sure" },
                   ].map((o) => (
                     <label
                       key={o.value}
