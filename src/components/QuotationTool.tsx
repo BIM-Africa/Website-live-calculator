@@ -876,8 +876,8 @@ const QuotationTool: React.FC = () => {
                 <label className="block text-sm font-medium text-gray-700 mb-4">Hosting</label>
                 <div className="space-y-3">
                   {[
-                    { value: "bim africa", label: "BIM Africa to provides " },
-                    { value: "client", label: "Client to provides " },
+                    { value: "bim africa", label: "BIM Africa to provide " },
+                    { value: "client", label: "Client to provide " },
                   ].map((o) => (
                     <label
                       key={o.value}
